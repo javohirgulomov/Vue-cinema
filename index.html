@@ -1,32 +1,38 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Vue Cinema</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/media.css">
-    <link rel="stylesheet" href="./css/fonts.css">
+    <!--  link all.min css file   -->
     <link rel="stylesheet" href="./css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/">
+    <!--  link style css   -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!--  link media css  -->
+    <link rel="stylesheet" href="./css/media.css">
 </head>
 <body>
 
-    <!-- SITE-ADS-HEADER-HERO -->
-    <div class="site-ads-header-hero">
-        <a href="#!" class="site-ads">
-            <i class="fal fa-film fa-6x"></i>
-        </a>
-    </div>
+<!-- SITE-ADS-HEADER-HERO -->
+<div class="site-ads-header-hero">
+    <a href="#!" class="site-ads">
+        <i class="fal fa-film fa-4x"></i>
+        <span class="site-ads__text">See no special offer restrictions</span>
+    </a>
 
-    <!-- Site-Header -->
-     <header class="site-header">
+<!--     SITE-HEADER  -->
+    <header class="site-header">
         <div class="container site-header__content">
-            <a href="!#" class="site-header__logo logo">
-                <img src="./images/logo.svg" alt="Site Logo">
+            <a href="#!" class="site-header__logo logo">
+                <img src="./images/logo.svg" alt="Site logo" class="logo-image">
                 CINEMAS
             </a>
 
-            <ul class="site-header__list"> 
+            <div class="menu-bars">
+                <span class="bars-line"></span>
+            </div>
+            <ul class="site-header__list">
                 <li class="site-header__item">
                     <a href="#!" class="site-header__link">Films</a>
                 </li>
@@ -41,9 +47,215 @@
                 </li>
             </ul>
         </div>
-     </header>
+    </header>
+
+
+    <!--    SITE -HEADER  -->
+<!--    SITE-HERO     -->
+    <div class="site-hero">
+        <img src="./images/kong_skull_island 1.png" alt="Site hero banner" class="site-hero__banner">
+        <div class="site-hero__content">
+            <div class="container site-hero__container">
+                <h1 class="site-title">Kong: Skull Island</h1>
+                <p class="site-desc">The film takes the viewer to the 70s of the last century. The protagonist organizes an expedition to the Skull island, always covered in fog, on which King Kong was once caught to find the missing brother and some mysterious substance. During...</p>
+                <div class="site-button">
+                    <a href="#!" class="site-btn btn">Watch now</a>
+                    <a href="#!" class="site-btn btn">Download</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--    SITE-HERO     -->
+
 
 </div>
+<!-- SITE-ADS-HEADER-HERO -->
+</div>
+
+
+<!-- SITE-MAIN -->
+<main class="site-main">
+    <section class="films">
+        <div class="container">
+            <h2 class="films-headline title">films</h2>
+            <div class="films-cards">
+                <div class="films-card">
+                    <img src="./images/Black_Panther_film_poster 1.png" alt="Black Panther" class="films-card__image">
+                    <div class="films-card__content">
+                        <a href="#!" class="films-card__link">
+                            <i class="fad fa-play fa-3x films-card__icon"></i>
+                        </a>
+                        <span class="films-card__time">2:14:33</span>
+                        <h4 class="films-card__title">Black Panther</h4>
+                        <p class="films-card__text">At first glance, you can decide that Wakanda is an ordinary te rritory of wild Africa, but this is not so. Here, in the bowels of the desert lands, there are hidden deposits of a unique metal capable of absorbing...</p>
+                    </div>
+                </div>
+                <div class="films-card">
+                    <img src="./images/Black_Panther_film_poster 2.png" alt="Black Panther" class="films-card__image">
+                    <div class="films-card__content">
+                        <a href="#!" class="films-card__link">
+                            <i class="fad fa-play fa-3x films-card__icon"></i>
+                        </a>
+                        <span class="films-card__time">2:32:33</span>
+                        <h4 class="films-card__title">The Dark Knight</h4>
+                        <p class="films-card__text">Batman raises stakes in the war on crime. With the help of Lieutenant Jim Gordon and Attorney Harvey Dent, he intends to clear the streets of crime that is poisoning the city. The cooperation is effective, but soon they...</p>
+                    </div>
+                </div>
+                <div class="films-card">
+                    <img src="./images/Black_Panther_film_poster 3.png" alt="Black Panther" class="films-card__image">
+                    <div class="films-card__content">
+                        <a href="#!" class="films-card__link">
+                            <i class="fad fa-play fa-3x films-card__icon"></i>
+                        </a>
+                        <span class="films-card__time">1:53:45</span>
+                        <h4 class="films-card__title">The Gentlemen</h4>
+                        <p class="films-card__text">One cunning American, from his student years, had been selling drugs, and now he came up with a scheme of illegal enrichment usin   g the estates of an impoverished English aristocracy and made a very good fortune on ...</p>
+                    </div>
+                </div>
+                <div class="films-card">
+                    <img src="./images/Black_Panther_film_poster 4.png" alt="Black Panther" class="films-card__image">
+                    <div class="films-card__content">
+                        <a href="#!" class="films-card__link">
+                            <i class="fad fa-play fa-3x films-card__icon"></i>
+                        </a>
+                        <span class="films-card__time">2:58:20</span>
+                        <h4 class="films-card__title">The Lord of the...</h4>
+                        <p class="films-card__text">Tales of Middle-earth is a chronicle of the Great War for the Ring, a war that lasted more than one thousand years. The one who owned the Ring received power over all living creatures, but was obliged to serve evil...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="primer">
+        <video src="./primer-video/Black widow for project.mp4" controls muted autoplay class="primer-video"></video>
+        <div class="primer-content">
+            <div class="container primer-flex">
+                <img src="./images/primier.png" alt="Primer photo" class="primer-image">
+                <p class="primer-desc">After the events at the Leipzig-Halle airport, Natasha was overtaken by the mistakes of the past. The Red Room again made itself felt - a program to create Widows - professional killers and spies - just like her. Natasha decides once and for all to deal with people whose efforts she herself became a Widow.</p>
+                <a href="#!" class="primer-btn btn">Watch now</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="collection">
+        <div class="container">
+            <h2 class="collection-title title">Collections</h2>
+            <div class="collection-cards">
+                <div class="collection-card">
+                    <img src="./images/1_1RP9RobsLeCjQFBFt039Sw 1.png" alt="All Marvel Films" class="collection-image">
+                    <div class="collection-content">
+                        <a href="#!" class="collection-link">
+                            <i class="fad fa-play fa-3x collection-card__icon"></i>
+                        </a>
+                        <h3 class="collection-name">All Marvel Films</h3>
+                    </div>
+                </div>
+                <div class="collection-card">
+                    <img src="./images/1_1RP9RobsLeCjQFBFt039Sw 2.png" alt="Fast and the Furious" class="collection-image">
+                    <div class="collection-content">
+                        <a href="#!" class="collection-link">
+                            <i class="fad fa-play fa-3x collection-card__icon"></i>
+                        </a>
+                        <h3 class="collection-name">Fast and the Furious</h3>
+                    </div>
+                </div>
+                <div class="collection-card">
+                    <img src="./images/1_1RP9RobsLeCjQFBFt039Sw 3.png" alt="Star wars" class="collection-image">
+                    <div class="collection-content">
+                        <a href="#!" class="collection-link">
+                            <i class="fad fa-play fa-3x collection-card__icon"></i>
+                        </a>
+                        <h3 class="collection-name">Star wars</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="series">
+        <div class="container">
+            <h2 class="series-title title">Series</h2>
+            <div class="series-large">
+                <img src="./images/2a443f7ae21fd8bab3c8a7e000aa2115 1.png" alt="Game of Thrones" class="series-image">
+                <div class="series-content">
+                    <h2 class="series-large__title">Game of Thrones</h2>
+                    <p class="series-large__desc">The time of prosperity is drawing to a close, and the summer, which lasted almost a decade, is dying away. Around the center of power of the Seven Kingdoms, the Iron Throne, a conspiracy is ripening, and during this difficult time, the king decides to seek support from his youth friend Eddard Stark. In a world where everyone - from the king to the mercenary - is eager for power, intrigues and is ready to stick a knife in the back, there is ...</p>
+                    <a href="#!" class="series-large__btn btn">Watch now</a>
+                </div>
+            </div>
+
+            <div class="series-grid">
+                <div class="series-item series-md">
+                    <img src="./images/wanda-vision.png" alt="Wanda vision" class="grid-image">
+                    <div class="series-content">
+                        <a href="#!" class="series-link">
+                            <i class="fad fa-play fa-3x series-card__icon"></i>
+                        </a>
+                        <h4 class="series-headline">Wanda Vision</h4>
+                    </div>
+                </div>
+                <div class="series-item series-sm">
+                    <img src="./images/the-flash.png" alt="The flash" class="grid-image">
+                    <div class="series-content">
+                        <a href="#!" class="series-link">
+                            <i class="fad fa-play fa-3x series-card__icon"></i>
+                        </a>
+                        <h4 class="series-headline">The Flash</h4>
+                    </div>
+                </div>
+                <div class="series-item series-sm">
+                    <img src="./images/the-great.png" alt="The great" class="grid-image">
+                    <div class="series-content">
+                        <a href="#!" class="series-link">
+                            <i class="fad fa-play fa-3x series-card__icon"></i>
+                        </a>
+                        <h4 class="series-headline">The Great</h4>
+                    </div>
+                </div>
+                <div class="series-item series-sm">
+                    <img src="./images/gotham.png" alt="Gotham" class="grid-image">
+                    <div class="series-content">
+                        <a href="#!" class="series-link">
+                            <i class="fad fa-play fa-3x series-card__icon"></i>
+                        </a>
+                        <h4 class="series-headline">GOTHAM</h4>
+                    </div>
+                </div>
+                <div class="series-item series-sm">
+                    <img src="./images/the-witcher.png" alt="The witcher" class="grid-image">
+                    <div class="series-content">
+                        <a href="#!" class="series-link">
+                            <i class="fad fa-play fa-3x series-card__icon"></i>
+                        </a>
+                        <h4 class="series-headline">The witcher</h4>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+</main>
+<!-- SITE-MAIN -->
+
+<!-- SITE-FOOTER -->
+<footer class="site-footer">
+    <div class="container footer-content">
+        <div class="footer-app app">
+            <a href="#!" class="app-google">
+                <img src="./images/google-logo.svg" alt="Google icon" class="google-logo">
+            </a>
+            <a href="#!" class="app-store">
+                <img src="./images/store-logo.svg" alt="Store icn" class="store-logo">
+            </a>
+        </div>
+        <p class="footer-desc">© IT LIVE. В целях обучения 2023</p>
+    </div>
+</footer>
+<!-- SITE-FOOTER -->
 
 </body>
 </html>
